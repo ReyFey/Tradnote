@@ -34,7 +34,7 @@ def convert_note():
     if result.is_integer():
         result = int(result)
 
-    print(f"Cela donnerait donc : {result}\n")
+    print(f"Cela donnerait donc : {result:.2f}\n")
 
 
 is_running = True
