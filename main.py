@@ -10,7 +10,7 @@ def verify_denum(denum):
 
 
 def verify_mark(mark):
-    if mark > 0:
+    if mark < 0:
         print("\n#ERROR# Impossible de mettre une valeur inférieure à 0\n")
         return False
 
